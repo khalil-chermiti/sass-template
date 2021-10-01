@@ -1,0 +1,15 @@
+{
+  "name": "sass-template",
+  "version": "1.0.0",
+  "description": "sass template for a fast start up ",
+  "main": "index.js",
+  "scripts": {
+   "compile:sass" : "node-sass sass/app.scss css/app.css -w" ,
+   "live-server" : "live-server"
+  },
+  "author": "khalil chermiti",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}

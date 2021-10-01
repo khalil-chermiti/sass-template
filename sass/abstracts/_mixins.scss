@@ -1,0 +1,37 @@
+@mixin clearfix {
+    &::after{
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+// flixable margin 
+@mixin margin-bottom ($val) {
+    margin-bottom: $val;
+}
+@mixin margin-top ($val) {
+    margin-top: $val;
+}
+@mixin margin-right ($val) {
+    margin-right: $val;
+}
+@mixin margin-left ($val) {
+    margin-left: $val;
+}
+
+// flixable-padding 
+@mixin  padding-bottom ($val) {
+    padding-bottom: $val;
+}
+@mixin  padding-top ($val) {
+    padding-top: $val;
+}
+@mixin  padding-right ($val) {
+    padding-right: $val;
+}
+@mixin  padding-left ($val) {
+    padding-left: $val;
+}
+
+// text shadow on demand 
